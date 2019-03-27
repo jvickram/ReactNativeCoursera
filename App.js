@@ -1,20 +1,17 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
+import Main from "./components/MainComponent";
 
 export default class App extends React.Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text>App.js opened and updated Again</Text>
-      </View>
-    );
+    return <Main style={styles.container} />;
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#f91717",
     alignItems: "center",
     justifyContent: "center"
   }
